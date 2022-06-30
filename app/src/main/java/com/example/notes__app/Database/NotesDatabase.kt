@@ -21,7 +21,7 @@ abstract class NotesDatabase : RoomDatabase(){
             {
               val roomDatabaseInstance=Room.databaseBuilder(context,NotesDatabase::class.java,"Notes").build()
                 INSTANCE=roomDatabaseInstance
-                return return roomDatabaseInstance
+                return roomDatabaseInstance
             }
         }
     }
